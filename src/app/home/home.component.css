@@ -1,0 +1,14 @@
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    height: 420px;
+    width: 70%;
+    margin: 0px auto;
+}
+
+.carousel {
+    background-color: black;
+}
+
+.down {
+    margin-top: 20px;
+}

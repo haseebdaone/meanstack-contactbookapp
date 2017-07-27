@@ -1,6 +1,14 @@
-<p>{{displayedContact.name}}</p>
-<p>{{displayedContact.email}}</p>
-<p>{{displayedContact.phone}}</p>
-<p><img src="{{displayedContact.picture}}" alt=""></p>
-<button class="btn btn-warning" (click)="updateContact()">Update</button>
-<button class="btn btn-danger" (click)="deleteContact()">Delete</button>
+<div class="container seperatetop">
+    <div class="row">
+        <div class="col-sm-12">
+            <img src="{{displayedContact.picture}}">
+            <p>{{displayedContact.name}}</p>
+            <p>{{displayedContact.email}}</p>
+            <p>{{displayedContact.phone}}</p>
+            <div class="buttons">
+                <button class="btn btn-warning" (click)="updateContact()">Update</button>
+                <button class="btn btn-danger" (click)="deleteContact()">Delete</button>
+            </div>
+        </div>
+    </div>
+</div>
