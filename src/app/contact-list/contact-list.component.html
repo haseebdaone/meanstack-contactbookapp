@@ -1,3 +1,4 @@
-<ul class='nav nav-pills nav-stacked'>
-  <li (click)='clickedContact(contact)' *ngFor='let contact of contacts'><a>{{contact.name}}</a></li>
+<ul class='list-group'>
+  <a class='list-group-item' (click)='clickedContact(contact)' *ngFor='let contact of contacts'>{{contact.name}}</a>
 </ul>
+
