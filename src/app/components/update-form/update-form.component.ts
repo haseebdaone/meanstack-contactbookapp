@@ -1,6 +1,6 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
-import { Contacts } from '../contacts';
-import { ContactService } from '../contact.service';
+import { Contacts } from '../../contacts';
+import { ContactService } from '../../contact.service';
 
 @Component({
   selector: 'update-form',

@@ -5,11 +5,11 @@ import { HttpModule } from '@angular/http';
 import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { ContactCenterComponent } from './contact-center/contact-center.component';
-import { ContactListComponent } from './contact-list/contact-list.component';
-import { ContactDetailComponent } from './contact-detail/contact-detail.component';
-import { UpdateFormComponent } from './update-form/update-form.component';
-import { HomeComponent } from './home/home.component';
+import { ContactCenterComponent } from './components/contact-center/contact-center.component';
+import { ContactListComponent } from './components/contact-list/contact-list.component';
+import { ContactDetailComponent } from './components/contact-detail/contact-detail.component';
+import { UpdateFormComponent } from './components/update-form/update-form.component';
+import { HomeComponent } from './components/home/home.component';
 
 const appRoutes: Routes = [
   {path: '', redirectTo: '/home', pathMatch: 'full'},
