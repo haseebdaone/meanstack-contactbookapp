@@ -30,7 +30,8 @@
       <contact-detail *ngIf="selectedContact && noUpdate" 
                       [displayedContact]="selectedContact" 
                       (updateForm)="updateHere()"
-                      (deleteThis)="requestDelete($event)"></contact-detail>
+                      (deleteThis)="requestDelete($event)"
+                      ></contact-detail>
       <update-form *ngIf="selectedContact && !noUpdate" [updateContact]="selectedContact" (updateOut)="updatingNow($event)"></update-form>
     </div>
   </div>
