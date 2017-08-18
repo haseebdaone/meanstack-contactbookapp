@@ -1,6 +1,6 @@
 <div class="container-fluid">
   <div class="row">
-    <div class="col-sm-3">
+    <div class="col-sm-3 grey">
       <button class="btn btn-success btn-block margin" (click)='newContact()'>+ Add Contact</button>
       <contact-list (contactOut)="receivedContact($event)"  [contacts]="contacts"></contact-list>
     </div>
